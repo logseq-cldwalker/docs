@@ -1,4 +1,0 @@
-- this setting allows you to toggle between workflow style:
-	- `NOW/LATER` (default)
-	- `TODO/DOING`
-- check [[Tasks]] to learn more
