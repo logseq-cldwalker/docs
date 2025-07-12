@@ -14,10 +14,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Logseq Publish
-        uses: logseq/publish-spa@main
+        uses: logseq/publish-spa@feat/db
         with:
           output-directory: www
           accent-color: indigo
+          version: adbac92f4ae4445437345c819cabf33a644cd1ec
 
       - name: Add .nojekyll file
         run: touch www/.nojekyll
