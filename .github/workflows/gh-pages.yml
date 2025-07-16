@@ -18,7 +18,6 @@ jobs:
         with:
           output-directory: www
           accent-color: indigo
-          version: adbac92f4ae4445437345c819cabf33a644cd1ec
 
       - name: Add .nojekyll file
         run: touch www/.nojekyll
